@@ -1,7 +1,8 @@
 # Centipede
  Classic arcade centipede game remastered.
 
- Compiling Information:
+ Info:
+ -SFML needed in top folder (used version 2.6.0)
 
 
  Possible Planned Updates:
