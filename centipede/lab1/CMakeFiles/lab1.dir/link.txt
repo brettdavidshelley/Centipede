@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lab1.dir/code/Centipede.cpp.o CMakeFiles/lab1.dir/code/ECE_Centipede.cpp.o CMakeFiles/lab1.dir/code/ECE_LaserBlast.cpp.o CMakeFiles/lab1.dir/code/Spider.cpp.o -o ../output/bin/lab1  -Wl,-rpath,/4122/textbook/lab1/output/lib ../output/lib/libsfml-graphics.so.2.6.1 ../output/lib/libsfml-window.so.2.6.1 ../output/lib/libsfml-system.so.2.6.1

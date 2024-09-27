@@ -1,0 +1,263 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "SFML",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SFML-Debug-d07fddc31a36dfbf14a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "SFML"
+				},
+				{
+					"build" : "SFML/src/SFML",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SFML.src.SFML-Debug-f7950aada41e17e5c7a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "SFML/src/SFML"
+				},
+				{
+					"build" : "SFML/src/SFML/System",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SFML.src.SFML.System-Debug-4ca4dcf4d8b9a2e0ecbf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "SFML/src/SFML/System",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "SFML/src/SFML/Main",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SFML.src.SFML.Main-Debug-721d25d161ee5fe7c122.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "SFML/src/SFML/Main",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "SFML/src/SFML/Window",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SFML.src.SFML.Window-Debug-08a7ae76e9864eca9fc0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "SFML/src/SFML/Window",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "SFML/src/SFML/Network",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SFML.src.SFML.Network-Debug-133ebba5b4d0c42a40ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "SFML/src/SFML/Network",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "SFML/src/SFML/Graphics",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SFML.src.SFML.Graphics-Debug-af546c42a4fdc0a4f7dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "SFML/src/SFML/Graphics",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "centipede",
+					"jsonFile" : "directory-centipede-Debug-f3a4e042fedeae929f60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "centipede",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Tutorials"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "SFML",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "centipede",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "centipede::@bff01c47560fdab9bd79",
+					"jsonFile" : "target-centipede-Debug-f39f0586feb62fb9bff3.json",
+					"name" : "centipede",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sfml-graphics::@b5d161fc85c1c0dd9373",
+					"jsonFile" : "target-sfml-graphics-Debug-cca3b2ad15ee1ab631b3.json",
+					"name" : "sfml-graphics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sfml-main::@c6bfd72d0b1e1f066d8b",
+					"jsonFile" : "target-sfml-main-Debug-9a1701a2b4f0255e8094.json",
+					"name" : "sfml-main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sfml-network::@5e97341f5bcfe5d6b699",
+					"jsonFile" : "target-sfml-network-Debug-ce12f0167652caba06cf.json",
+					"name" : "sfml-network",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sfml-system::@f1fd4bce49687b53ec1b",
+					"jsonFile" : "target-sfml-system-Debug-4ead0e2708b0bb699b36.json",
+					"name" : "sfml-system",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sfml-window::@0daf25d7b5dd386fd904",
+					"jsonFile" : "target-sfml-window-Debug-067f1a8206252244ebf6.json",
+					"name" : "sfml-window",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/brett/OneDrive/Desktop/Projects/Software/Centipede Arcade Game/Current Version/build",
+		"source" : "C:/Users/brett/OneDrive/Desktop/Projects/Software/Centipede Arcade Game/Current Version"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

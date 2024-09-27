@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/brett/OneDrive/Desktop/Projects/Software/Centipede Arcade Game/Current Version/build/SFML/src/SFML/Network/sfml-network.rc
+winresrc.h
+C:/Users/brett/OneDrive/Desktop/Projects/Software/Centipede Arcade Game/Current Version/build/SFML/src/SFML/Network/winresrc.h
+
