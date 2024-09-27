@@ -1,8 +1,8 @@
 # Centipede
- Classic arcade centipede game remastered.
+ Classic arcade centipede game remastered in C++ with SFML.
 
  Info:
- -SFML needed in top folder (used version 2.6.0)
+ -SFML version 2.6.0 in top folder
 
  C/C++ Version Used:
  -MSYS2 g++ v13.2.0
