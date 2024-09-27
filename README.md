@@ -20,3 +20,17 @@
  -more levels
 
  -multiplayer? (local and network)
+
+ -condense duplicated time objects
+
+ -better start screen
+
+ -spider movement texture (directional)
+
+ -sprite blinker of sorts when player gets hurt
+
+ -score pop ups when player hits spider/centipede
+
+ -window problem (depending on screensize and stuff)
+
+ -player lives bug
